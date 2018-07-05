@@ -1,4 +1,4 @@
 module CFDB [system] {
-  header "/usr/local/include/foundationdb/fdb_c.h"
+  header "shim.h"
   export *
 }
