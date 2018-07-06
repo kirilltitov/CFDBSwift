@@ -4,12 +4,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "CFDB",
+    name: "CFDBSwift",
     pkgConfig: "libfdb",
     products: [
         .library(name: "CFDB", targets: ["CFDB"]),
     ]
-    // targets: [
-    //     .systemLibrary(name: "CFDB"),
-    // ]
 )
+
