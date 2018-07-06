@@ -7,7 +7,10 @@ let package = Package(
     name: "CFDBSwift",
     pkgConfig: "libfdb",
     products: [
-        .library(name: "CFDB", targets: ["CFDB"]),
+        .library(name: "CFDBSwift", targets: ["CFDBSwift"]),
     ]
+    // targets: [
+    //     .systemLibrary(name: "CFDB"),
+    // ]
 )
 
